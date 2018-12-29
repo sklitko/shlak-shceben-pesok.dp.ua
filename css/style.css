@@ -2011,7 +2011,7 @@ footer em {
 	}
 
 	header nav.tm_navbar .nav {
-		display: none;
+		/* display: none; */
 	}
 
 	.thumb-pad1 .caption a {
@@ -2027,7 +2027,7 @@ footer em {
 	}
 
 	.thumb-pad2 .caption p {
-		display: none;
+		/* display: none; */
 	}
 
 	.thumb-pad2 .caption strong {
@@ -2175,6 +2175,8 @@ footer em {
 		height: 360px;
 		min-height: 360px;
 	}
+
+
 }
 
 @media screen and (min-width: 64em) {
@@ -2182,6 +2184,11 @@ footer em {
 		height: 600px;
 		min-height: 600px;
 	}
+
+	.image-article {
+		height: 400px;
+	}
+
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -2195,4 +2202,8 @@ footer em {
 	border: 2px solid #fff;
 	border-radius: 100%;
 	transition: all .25s ease;
+}
+
+.image-article {
+	margin-bottom: 25px;
 }
