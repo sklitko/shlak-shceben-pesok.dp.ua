@@ -113,9 +113,9 @@ include('jquery.ui.totop.js')
 $(function() {
   $().UItoTop({ easingType: 'easeOutQuart' })
 })
-jQuery(function() {
-  jQuery('.sf-menu').mobileMenu()
-})
+// jQuery(function() {
+//   jQuery('.sf-menu').mobileMenu()
+// })
 $(function() {
   var viewportmeta = document.querySelector && document.querySelector('meta[name="viewport"]'),
     ua = navigator.userAgent,
