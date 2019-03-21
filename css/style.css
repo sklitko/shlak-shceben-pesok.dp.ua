@@ -2101,6 +2101,17 @@ footer em {
 	footer {
 		text-align: center;
 	}
+
+	header .box .title2,
+	.thumb-pad2 .caption p {
+		font-size: 22px;
+	}
+
+	.owl-dots {
+		display: none;
+	}
+
+
 }
 
 /*===========================================================================================================================*/
@@ -2113,6 +2124,11 @@ footer em {
 	.col-xs-6 {
 		width: 100%;
 		float: none;
+	}
+
+	header .box .title2,
+	.thumb-pad2 .caption p {
+		font-size: 18px;
 	}
 }
 
